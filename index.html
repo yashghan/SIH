@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive tour and travel agency website</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+
+<body>
+
+
+    <!-- Header section starts here -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>D</span>ivyaang</a>
+
+        <nav class="navbar">
+            <!-- <a href="#home">Home</a> -->
+            
+            <span>
+                <!-- <i class="fas fa-search" id="search-btn">Fill Form</i> -->
+                <i class="fa fa-user" id="login-btn"><a href="#book">Fill Form</a></i>   
+            </span>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!-- <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fa fa-user" id="login-btn"></i>
+        </div> -->
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here..">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!-- Header section ends here -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="/form" method = "POST">
+            <h3>Form</h3>
+            <input type="email" class="box" placeholder="Name">
+            <input type="password" class="box" placeholder="Location">
+            <input type="tel" class="box" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <input type="tel" class="box" placeholder="Condition">
+
+            <input type="Submit" class="btn" value="Submit">
+            <!-- <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forget Password <a href="#">Click Here</a></p>
+            <p>Don't Have an Account <a href="#">Register Now</a></p> -->
+        </form>
+    </div>
+
+    <!-- login form ends here -->
+
+
+
+
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
